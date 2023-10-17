@@ -3,7 +3,7 @@ package kadai_004;
 public class Score_Chapter04 {
 
 	public static void main(String[] args) {
-		System.out.println("Aさんの点数は10点");
+		  System.out.println("Aさんの点数は10点");
 	    System.out.println("Bさんの点数は20点");
 	    System.out.println("Cさんの点数は30点");
 	    System.out.println("Dさんの点数は40点");
