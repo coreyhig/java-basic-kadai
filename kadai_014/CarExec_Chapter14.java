@@ -7,6 +7,6 @@ package kadai_014;
 		
 			car.gearChange( 3 );
 		
-			car.run( );
+			car.run(  );
 		}
 	}

@@ -4,7 +4,7 @@ package kadai_014;
 {
 		//車クラスのフィールド
 		private int gear  = 1; // 1速から5速のギアを表す
-        private int speed = 30; //ギアチェンジ後の速度を表す
+        private int speed = 10; //ギアチェンジ後の速度を表す
 		
 		 //車クラスのgearchangeメソッド
 		public void gearChange( int afterGear ) {
@@ -13,6 +13,6 @@ package kadai_014;
 		
 		//車クラスのrunメソッド
 		public void run() {
-				System.out.println("速度は時速" + this.speed + "kmです");
+			System.out.println("速度は時速" + this.speed + "kmです");
 	    }
 }
