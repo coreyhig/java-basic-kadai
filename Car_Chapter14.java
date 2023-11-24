@@ -3,11 +3,6 @@ package kadai_014;
 public class Car_Chapter14{
 	static int gear = 1;
     static int speed = 10;
-    	
-	public static void main(String[] args){
-			gearChange(3);
-			run();
-		}
 
 		public static void gearChange(int afterGear) {
 			speed = switch(afterGear) { 

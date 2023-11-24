@@ -4,6 +4,16 @@ package kadai_014;
 			
 
 			Car_Chapter14 car = new Car_Chapter14();
-
+			
+			gearChange(3);
+			run();
 		}
-	}
+		
+		private static void gearChange(int i) {
+		}
+
+		private static void run() {
+		}}
+
+
+	
