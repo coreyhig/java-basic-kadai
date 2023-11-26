@@ -3,17 +3,10 @@ package kadai_014;
 		public static void main(String[] args) {
 			
 
-			Car_Chapter14 car = new Car_Chapter14();
+			Car_Chapter14 gear = new Car_Chapter14(1,10);
 			
-			gearChange(3);
-			run();
+			gear.gearChange(3);
+			
+			}
+			
 		}
-		
-		private static void gearChange(int i) {
-		}
-
-		private static void run() {
-		}}
-
-
-	

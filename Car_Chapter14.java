@@ -1,22 +1,28 @@
 package kadai_014;
 
 public class Car_Chapter14{
-	static int gear = 1;
-    static int speed = 10;
+	//フィールド
+	    private int gear = 1;
+	    private int speed = 10;
 
-		public static void gearChange(int afterGear) {
-			speed = switch(afterGear) { 
-				case 1 -> 10;
-				case 2 -> 20;
-				case 3 -> 30;
-				case 4 -> 40;
-				case 5 -> 50;
-				default -> 10;
-			};
-			System.out.println("ギア" + gear +"から" + afterGear +"に切り替えました");	
-		}
-		public static  void run() { 
-
-			System.out.println("速度は時速" +speed +"kmです");
-		}
-}
+	    // コンストラクタ（初期化処理）
+	    public Car_Chapter14(int gear, int speed ) {
+	        this.gear  = gear;
+	        this.speed = speed;
+	    }
+	    public void gearChange( int afterGear ) {
+        System.out.println("ギア"+gear +"から" +afterGear + "に切り替わりました");
+        		{
+	    	switch(afterGear) {
+	    	case 1  -> System.out.println("速度は時速10kmです");
+	        case 2  -> System.out.println("速度は時速20kmです");
+	        case 3  -> System.out.println("速度は時速30kmです");
+	        case 4  -> System.out.println("速度は時速40kmです");
+	        case 5  -> System.out.println("速度は時速50kmです");
+	        case 6  -> System.out.println("速度は時速50kmです");
+	        default -> System.out.println("速度は時速100kmです");
+	    	}
+	    	}
+        		}
+	    }
+	      
