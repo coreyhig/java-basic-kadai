@@ -21,7 +21,7 @@ public class Car_Chapter14{
 	        case 4  -> System.out.println(40);
 	        case 5  -> System.out.println(50);
 	        case 6  -> System.out.println(60);
-	        default -> System.out.println(1000);
+	        default -> System.out.println(10);
 	    	}}}
 	    public void run() {
 	    	System.out.println("速度は時速" + speed + "kmです");
